@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo2</title>
+</head>
+<style>
+    @font-face {font-family: "iconfont";
+    src: url('./icon/iconfont.eot?t=1543321733425'); /* IE9*/
+    src:url('./icon/iconfont.eot?t=1543321733425#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./icon/iconfont.ttf?t=1543321733425') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('./icon/iconfont.svg?t=1543321733425#iconfont') format('svg'); /* iOS 4.1- */
+    }
+    .icon{
+        font-family: "iconfont" !important;
+        font-size: 50px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+    }
+    .icon_contact::before{
+        content:"\e714";
+    }
+    .icon_telephone::before{
+        content:"\e70b";
+    }
+    .icon_mail::before{
+        content:"\e713";
+    }
+
+</style>
+<body>
+    <span class="icon icon_contact"></span>
+    <span class="icon icon_telephone"></span>
+    <span class="icon icon_mail"></span>
+    
+</body>
+</html>
