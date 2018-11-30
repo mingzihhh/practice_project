@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul,li{
+            margin:0;
+            padding:0;
+        }
+        .layout{
+            margin:0 auto;
+            width:800px;    
+        }
+        ul{
+            list-style: none;
+        }
+        .content h1{
+            text-align: center;
+            padding-bottom:10px;
+            color:#666;
+            border-bottom:1px solid #ccc;
+        }
+        .container{
+            margin-left:-10px;   
+        }
+        .container:after{
+            content:'';
+            display: block;
+            clear:both;
+        }
+        .container>li{
+            float:left;
+            width:260px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+            margin-left:10px;
+            margin-top:30px;
+            padding:1px 16px ;
+        }
+        .container>li p{
+            text-align: center;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout content">
+        <h1>风景列表</h1>
+        <ul class="container">
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            <li>
+                <img src="#" alt="">
+                <p>风景如画</p>
+            </li>
+            
+        </ul>
+
+    </div>
+
+</body>
+</html>
